@@ -1,0 +1,9 @@
+﻿[
+{
+    "dataType": "B",
+    "name": "Read_Code_Flag",
+    "address": "10.4",
+    "description": "读条码请求"
+  }
+  
+  ]

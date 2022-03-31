@@ -1,0 +1,27 @@
+[
+
+{
+    "dataType": "I2",
+    "name": "Ng_Ok",
+    "address": "10.5",
+    "description": "是否NG"
+  },
+  {
+    "dataType": "F4",
+    "name": "Planeness",
+    "address": "10.6",
+    "description": "平整度"
+  },
+  {
+    "dataType": "String",
+    "name": "Bar_Code",
+    "address": "460.0",
+    "description": "条码"
+  },
+  {
+    "dataType": "B",
+    "name": "Read_Code_Finished",
+    "address": "12.0",
+    "description": "读条码完成信号"
+  }
+]

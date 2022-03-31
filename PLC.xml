@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+
+	<IPAddress value="192.168.1.10" />
+	<!--PLC的IP地址 -->
+
+	<barcode_DB value="100" />
+	<!-- 条码所在DB块-->
+
+	
+	
+  
+</Config>
