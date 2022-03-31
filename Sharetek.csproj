@@ -64,16 +64,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="PLC_Adapt_">
-      <HintPath>..\PLC_Adapt_\bin\Debug\PLC_Adapt_.dll</HintPath>
-    </Reference>
-    <Reference Include="S7.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5812d469e84c693, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\S7.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="Sharetek_Common_">
-      <HintPath>..\Sharetek_Common_\bin\Debug\Sharetek_Common_.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -89,12 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoWithPLC.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_LogIn.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form_LogIn.Designer.cs">
+      <DependentUpon>Form_LogIn.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Form2.cs">
@@ -121,12 +111,11 @@
     <Compile Include="Frmupdate.Designer.cs">
       <DependentUpon>Frmupdate.cs</DependentUpon>
     </Compile>
-    <Compile Include="GeneralUtilities.cs" />
     <Compile Include="MainClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form_LogIn.resx">
+      <DependentUpon>Form_LogIn.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAdd.resx">
@@ -188,6 +177,16 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PLC_Adapt\PLC_Adapt.csproj">
+      <Project>{81534fbd-c025-4597-882f-48dab5b1e713}</Project>
+      <Name>PLC_Adapt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sharetek_Common\Sharetek_Common.csproj">
+      <Project>{abb26a3f-58a5-4b4c-8c7d-1023019a307f}</Project>
+      <Name>Sharetek_Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

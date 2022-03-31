@@ -1,9 +1,14 @@
 ﻿[
 {
     "dataType": "B",
-    "name": "Read_Code_Flag",
+    "name": "Read_Code_Flag_1",
     "address": "10.4",
-    "description": "读条码请求"
+    "description": "读条码请求1"
+  }，{
+    "dataType": "B",
+    "name": "Read_Code_Flag_2",
+    "address": "10.4",
+    "description": "读条码请求2"
   }
   
   ]

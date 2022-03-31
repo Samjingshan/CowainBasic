@@ -11,11 +11,10 @@ using MyFuncDll;
 using System.Configuration;
 namespace Sharetek
 {
-    public partial class Form1 : Form
+    public partial class Form_LogIn : Form
     {       
-        string uname;
-        string pwd;
-        public Form1()
+       
+        public Form_LogIn()
         {
             InitializeComponent();
            

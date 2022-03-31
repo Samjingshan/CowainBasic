@@ -14,14 +14,27 @@
   },
   {
     "dataType": "String",
-    "name": "Bar_Code",
+    "name": "Bar_Code_1",
     "address": "460.0",
-    "description": "条码"
+    "description": "条码1"
   },
   {
     "dataType": "B",
-    "name": "Read_Code_Finished",
+    "name": "Read_Code_Finished_1",
     "address": "12.0",
-    "description": "读条码完成信号"
+    "description": "读条码完成信号1"
+  }
+,
+  {
+    "dataType": "String",
+    "name": "Bar_Code_2",
+    "address": "460.0",
+    "description": "条码2"
+  },
+  {
+    "dataType": "B",
+    "name": "Read_Code_Finished_2",
+    "address": "12.0",
+    "description": "读条码完成信号2"
   }
 ]

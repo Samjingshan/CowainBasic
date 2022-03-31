@@ -13,8 +13,7 @@ namespace Sharetek
     {
         public static string Path = "E://CCYQ_LOG";
         public static string sFile = string.Format("{0}{1:00}{2:00}", DateTime.Now.Date.Year, DateTime.Now.Date.Month, DateTime.Now.Date.Day);
-        public static string qx;
-        public static string uh;
+     
         public static string customConnect = ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
         /// <summary>
         /// 统一的读取结果的数据解析，显示

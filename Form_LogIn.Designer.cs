@@ -1,6 +1,6 @@
 ﻿namespace Sharetek
 {
-    partial class Form1
+    partial class Form_LogIn
     {
         /// <summary>
         /// Required designer variable.

@@ -9,12 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharetek", "Sharetek.csproj
 		{81534FBD-C025-4597-882F-48DAB5B1E713} = {81534FBD-C025-4597-882F-48DAB5B1E713}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharetek_Common_", "..\Sharetek_Common_\Sharetek_Common_.csproj", "{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLC_Adapt", "..\PLC_Adapt\PLC_Adapt.csproj", "{81534FBD-C025-4597-882F-48DAB5B1E713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLC_Adapt_", "..\PLC_Adapt_\PLC_Adapt_.csproj", "{81534FBD-C025-4597-882F-48DAB5B1E713}"
-	ProjectSection(ProjectDependencies) = postProject
-		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F} = {ABB26A3F-58A5-4B4C-8C7D-1023019A307F}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharetek_Common", "..\Sharetek_Common\Sharetek_Common.csproj", "{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,14 +23,14 @@ Global
 		{9CDC7CD4-0581-4B3A-BA99-C430F3FD65D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CDC7CD4-0581-4B3A-BA99-C430F3FD65D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CDC7CD4-0581-4B3A-BA99-C430F3FD65D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81534FBD-C025-4597-882F-48DAB5B1E713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81534FBD-C025-4597-882F-48DAB5B1E713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81534FBD-C025-4597-882F-48DAB5B1E713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81534FBD-C025-4597-882F-48DAB5B1E713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB26A3F-58A5-4B4C-8C7D-1023019A307F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
